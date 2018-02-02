@@ -2,13 +2,13 @@
 #include<conio.h>
 int main()
 {
-int y;
-printf("enter a y");
-scanf("%d",&y);
+int a;
+printf("enter a year");
+scanf("%d",&a);
 if(year%4==0)
-printf("year is leap");
+printf("leap year");
 else 
-printf("year is not leap");
+printf("not a leap year");
 getch();
 return();
 }
